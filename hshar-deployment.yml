@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hshar
-        image: hshar
+        image: venkatnarayan16/website
         ports:
           - containerPort: 80
 ---
