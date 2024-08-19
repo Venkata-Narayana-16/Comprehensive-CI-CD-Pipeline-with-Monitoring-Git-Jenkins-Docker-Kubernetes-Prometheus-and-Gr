@@ -15,3 +15,7 @@ Worker4: Docker, Kubernetes
 
 ![image](https://github.com/user-attachments/assets/e230722a-575e-4ed8-ade4-708286f41de0)
 ![image](https://github.com/user-attachments/assets/9edcb709-5e88-446a-a558-5406e1250507)
+
+
+#
+# Detailed deployment process is documented along with screenshots in a file named "Capstone project II.pdf"
