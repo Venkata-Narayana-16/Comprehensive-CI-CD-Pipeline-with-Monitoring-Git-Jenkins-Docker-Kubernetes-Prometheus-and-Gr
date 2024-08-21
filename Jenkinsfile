@@ -12,7 +12,7 @@ pipeline {
             }
             steps {
                 script{
-                    git 'https://github.com/Venkat-Narayan-07/Website-PRT-ORG.git'
+                    git 'https://github.com/Venkat-Narayan-07/Capstone-Project-II.git'
                 }
             }
         }
