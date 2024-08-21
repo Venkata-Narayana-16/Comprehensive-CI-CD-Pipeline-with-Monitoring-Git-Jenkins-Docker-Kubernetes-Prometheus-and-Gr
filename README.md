@@ -1,3 +1,4 @@
+# complete End-to-end Jenkins CI/CD pipeline using Git, Terraform, Ansible, Docker and Kubernates.
 Hired as a DevOps Engineer for Analytics Pvt Ltd.This company is a product based organization which uses Docker for their containerization needs within the company. The final product received a lot of traction in the first few weeks of launch. Now with the increasing demand, the organization needs to have a platform for automating deployment, scaling and operations of application containers across clusters of hosts. As a DevOps Engineer, you need to implement a DevOps lifecycle such that all the requirements are implemented without any change in the Docker containers in the testing environment. Up until now, this organization used to follow a monolithic architecture with just 2 developers.
 
 Following are the specifications of the lifecycle:
@@ -17,4 +18,4 @@ Worker4: Docker, Kubernetes
 ![image](https://github.com/user-attachments/assets/9edcb709-5e88-446a-a558-5406e1250507)
 
 
-#
+# Complete deployment is documented along with screeshots as a pdf file name Capstone-project-II 
