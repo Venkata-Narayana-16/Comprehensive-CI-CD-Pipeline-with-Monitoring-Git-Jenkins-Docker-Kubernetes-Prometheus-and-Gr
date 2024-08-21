@@ -18,4 +18,5 @@ Worker4: Docker, Kubernetes
 ![image](https://github.com/user-attachments/assets/9edcb709-5e88-446a-a558-5406e1250507)
 
 
-# Complete deployment is documented along with screeshots as a pdf file name Capstone-project-II 
+# Documentation
+Complete deployment is documented along with screeshots as a pdf file name Capstone-project-II 
