@@ -2,21 +2,9 @@ provider "aws"{
     secret_key= ""
     access_key= ""
     region= "eu-east-2"
-    alias = "worker2"
 }
-provider "aws"{
-    secret_key= ""
-    access_key= ""
-    region= "eu-east-2"
-    alias = "worker3"
-}
-provider "aws"{
-    secret_key= ""
-    access_key= ""
-    region= "eu-east-2"
-    alias = "worker4"
-}
-resource "aws_instance" "this2"{
+
+resource "aws_instance" "k8master"{
     ami= "ami-05fb0b8c1424f266b"
     instance_type= "t2.medium"
     key_name= "venkatohio"
@@ -25,7 +13,7 @@ resource "aws_instance" "this2"{
         Name= "worker2"
     }
 }
-resource "aws_instance" "this3"{
+resource "aws_instance" "k8slave"{
     ami= "ami-05fb0b8c1424f266b"
     instance_type= "t2.medium"
     key_name= "venkatohio"
@@ -34,7 +22,7 @@ resource "aws_instance" "this3"{
         Name= "worker3"
     }
 }
-resource "aws_instance" "this4"{
+resource "aws_instance" "k8slave"{
     ami= "ami-05fb0b8c1424f266b"
     instance_type= "t2.medium"
     key_name= "venkatohio"
