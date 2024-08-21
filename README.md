@@ -18,4 +18,3 @@ Worker4: Docker, Kubernetes
 
 
 #
-# Detailed deployment process is documented along with screenshots in a file named "Capstone project II.pdf"
