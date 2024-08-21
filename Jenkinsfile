@@ -35,7 +35,7 @@ pipeline {
             steps {
                 script{
                     sh 'kubectl apply -f hshar-deployment.yml'
-                    sh 'kubectl apply -f hshar-service.yml'
+                    sh 'kubectl apply -f hshar-Service.yaml'
                 }
             }
         }
