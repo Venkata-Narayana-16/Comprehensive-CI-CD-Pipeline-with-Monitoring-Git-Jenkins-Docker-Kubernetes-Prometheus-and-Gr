@@ -1,22 +1,57 @@
 # complete End-to-end Jenkins CI/CD pipeline using Git, Terraform, Ansible, Docker and Kubernates.
-Hired as a DevOps Engineer for Analytics Pvt Ltd.This company is a product based organization which uses Docker for their containerization needs within the company. The final product received a lot of traction in the first few weeks of launch. Now with the increasing demand, the organization needs to have a platform for automating deployment, scaling and operations of application containers across clusters of hosts. As a DevOps Engineer, you need to implement a DevOps lifecycle such that all the requirements are implemented without any change in the Docker containers in the testing environment. Up until now, this organization used to follow a monolithic architecture with just 2 developers.
 
-Following are the specifications of the lifecycle:
-1. Git workflow should be implemented. Since the company follows a monolithic architecture of development, you need to take care of version control. The release should happen only on the 25th of every month.
-2. CodeBuild should be triggered once the commits are made in the master branch.
-3. The code should be containerized with the help of the Dockerfile. The Dockerfile should be built every time if there is a push to GitHub. Create a custom Docker image using a Dockerfile.
-4. As per the requirement in the production server, you need to use the Kubernetes cluster and the containerized code from Docker Hub should be deployed with 2 replicas. Create a NodePort service and configure the same for port 30008.
-5. Create a Jenkins Pipeline script to accomplish the above task.
-6. For configuration management of the infrastructure, you need to deploy the configuration on the servers to install necessary software and configurations.
-7. Using Terraform, accomplish the task of infrastructure creation in the AWS cloud provider. Architectural Advice: Softwares to be installed on the respective machines using configuration management.
-Worker1: Jenkins, Java
-Worker2: Docker, Kubernetes
-Worker3: Java, Docker, Kubernetes
-Worker4: Docker, Kubernetes
+**Project Overview**
 
-![image](https://github.com/user-attachments/assets/e230722a-575e-4ed8-ade4-708286f41de0)
-![image](https://github.com/user-attachments/assets/9edcb709-5e88-446a-a558-5406e1250507)
+This project demonstrates the implementation of a comprehensive CI/CD pipeline using Git, Terraform, Ansible, Docker, and Kubernetes to automate software deployment, scaling, and operations across a Kubernetes cluster.
+
+**Challenges Addressed**
+* Increasing Demand: The company required a platform to handle increased demand for their product, which utilized Docker containers.
+* Monolithic Architecture: Previously, they used a monolithic architecture with manual deployments.
+* Version Control: Implementing a Git workflow for version control and controlled releases.
+
+**Solution Implemented**
+* CI/CD Pipeline: A Jenkins pipeline automates the entire deployment lifecycle.
+* Git Integration: Version control is implemented with Git, triggering builds on commits to the master branch.
+* Dockerization: Dockerfiles containerize the application code for deployment.
+* Kubernetes Deployment: Containerized code gets deployed on a Kubernetes cluster with two replicas.
+* NodePort Service: A NodePort service exposes the application on port 30008.
+* Infrastructure Provisioning: Terraform manages infrastructure creation on AWS.
+* Configuration Management: Ansible deploys necessary software and configurations on servers.
+
+**Key Technologies**
+* CI/CD Tool: Jenkins
+* Version Control: Git
+* Infrastructure Provisioning: Terraform
+* Configuration Management: Ansible
+* Containerization: Docker
+* Container Orchestration: Kubernetes
+
+**Skills Demonstrated**
+* CI/CD Pipeline Design and Implementation
+* Git Integration for Version Control
+* Dockerfile Creation and Containerization
+* Kubernetes Deployment and Management
+* Infrastructure Provisioning with Terraform
+* Configuration Management with Ansible
+
+**Project Outcomes**
+* Automated Deployment: Streamlined the deployment process for faster releases.
+* Scalability: Enabled easy scaling to handle increased demand.
+* Improved Efficiency: Reduced manual intervention and improved operational efficiency.
+
+# -
+**Documentation**: A detailed PDF document ("Capstone-project-II") outlines the complete deployment process with screenshots. (Link the PDF if hosted publicly)
+By showcasing this project, I aim to demonstrate my ability to design, implement, and manage complex DevOps CI/CD pipelines for efficient and scalable application deployments.
+
+**Contact Information**
+Kuruva venkata Narayana
+venkatnarayanakuruva@gmail.com
++918309285798
 
 
-# Documentation
-Complete deployment is documented along with screeshots as a pdf file name Capstone-project-II 
+
+
+
+
+
+
