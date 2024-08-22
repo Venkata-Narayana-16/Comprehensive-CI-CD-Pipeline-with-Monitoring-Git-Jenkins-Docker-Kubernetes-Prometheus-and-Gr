@@ -40,7 +40,7 @@ This project demonstrates the implementation of a comprehensive CI/CD pipeline u
 * Improved Efficiency: Reduced manual intervention and improved operational efficiency.
 
 # -
-**Documentation**: A detailed PDF document ("Capstone-project-II") outlines the complete deployment process with screenshots. (Link the PDF if hosted publicly)
+**Documentation**: A detailed PDF document "Capstone-project-II" outlines the complete deployment process with screenshots. 
 By showcasing this project, I aim to demonstrate my ability to design, implement, and manage complex DevOps CI/CD pipelines for efficient and scalable application deployments.
 
 **Contact Information**
